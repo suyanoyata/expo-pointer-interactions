@@ -1,43 +1,43 @@
 {
-  "name": "expo-pointer-interactions",
-  "version": "0.1.0",
-  "description": "This library allows to add support for iPad Pointer Intreactions",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
-  "scripts": {
-    "build": "expo-module build",
-    "clean": "expo-module clean",
-    "lint": "expo-module lint",
-    "test": "expo-module test",
-    "prepare": "expo-module prepare",
-    "prepublishOnly": "expo-module prepublishOnly",
-    "expo-module": "expo-module",
-    "open:ios": "xed example/ios",
-    "open:android": "open -a \"Android Studio\" example/android"
-  },
-  "keywords": [
-    "react-native",
-    "expo",
-    "expo-pointer-interactions",
-    "ExpoPointerInteractions"
-  ],
-  "repository": "https://github.com/suyanoyata/expo-pointer-interactions",
-  "bugs": {
-    "url": "https://github.com/suyanoyata/expo-pointer-interactions/issues"
-  },
-  "author": "suyanoyata <teikukuheia@gmail.com> (https://github.com/suyanoyata)",
-  "license": "MIT",
-  "homepage": "https://github.com/suyanoyata/expo-pointer-interactions#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@types/react": "~19.1.0",
-    "expo-module-scripts": "^5.0.7",
-    "expo": "^54.0.18",
-    "react-native": "0.81.5"
-  },
-  "peerDependencies": {
-    "expo": "*",
-    "react": "*",
-    "react-native": "*"
-  }
+	"name": "expo-pointer-interactions",
+	"version": "0.1.1",
+	"description": "This library allows to add support for iPad Pointer Intreactions",
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
+	"scripts": {
+		"build": "expo-module build",
+		"clean": "expo-module clean",
+		"lint": "expo-module lint",
+		"test": "expo-module test",
+		"prepare": "expo-module prepare",
+		"prepublishOnly": "expo-module prepublishOnly",
+		"expo-module": "expo-module",
+		"open:ios": "xed example/ios",
+		"open:android": "open -a \"Android Studio\" example/android"
+	},
+	"keywords": [
+		"react-native",
+		"expo",
+		"expo-pointer-interactions",
+		"ExpoPointerInteractions"
+	],
+	"repository": "https://github.com/suyanoyata/expo-pointer-interactions",
+	"bugs": {
+		"url": "https://github.com/suyanoyata/expo-pointer-interactions/issues"
+	},
+	"author": "suyanoyata <teikukuheia@gmail.com> (https://github.com/suyanoyata)",
+	"license": "MIT",
+	"homepage": "https://github.com/suyanoyata/expo-pointer-interactions#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/react": "~19.1.0",
+		"expo-module-scripts": "^5.0.7",
+		"expo": "^54.0.18",
+		"react-native": "0.81.5"
+	},
+	"peerDependencies": {
+		"expo": "*",
+		"react": "*",
+		"react-native": "*"
+	}
 }
